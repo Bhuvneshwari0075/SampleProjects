@@ -1,0 +1,33 @@
+.sidebar{
+    display: flex;
+    position: absolute;
+    top: 0%;
+    right: 100%;
+    transform: translate(100%,0px);
+    height: 100%;
+    width:  260px;
+    z-index: 0;
+    background-color: 	#f7c2c2;
+}
+
+.sidebar .content{
+    margin-top: 60px;
+    /* font-family: "Madimi one", sans-serif; */
+    font-family: "Josefin Sans", sans-serif;
+    color: rgba(255, 255, 255, 0.829);
+}
+
+.sidebar ul{
+    display: block;
+    margin-top: 20px;
+    position: inherit;
+    font-family: "Madimi one", sans-serif;
+    list-style-type: none;
+    color: rgba(249, 64, 64, 0.829);
+    font-size: 22px;
+}
+
+.sidebar li:hover{
+    color: #541616;
+}
+  
